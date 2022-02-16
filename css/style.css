@@ -1,0 +1,36 @@
+body
+
+div{
+  display: flex;
+  flex-direction: row;
+  top: 60%;
+  left: 50%;
+  position: absolute;
+  margin-top: -200px;
+  margin-left: -130px;
+  box-sizing: border-box;
+  
+}
+
+h1{
+text-align: center;
+display: flex;
+flex-direction: row;
+top: 25%;
+left: 50%;
+position: absolute;
+}
+
+#text{
+  text-align: center;
+}
+
+ button:hover{
+  background: rgb(167, 44, 44);
+  color: bisque;
+
+}
+
+button{
+  width: 50px;
+}
