@@ -16,7 +16,7 @@ var plus = document.querySelector('.plus')
 var inP = parseInt(document.querySelector("#text").value)  
 var cal;
  
-cal = inP + 1
+cal = inP + 0
 
 if(!inP>0.9 ){
   cal = 1 + 0
