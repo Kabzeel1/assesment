@@ -34,6 +34,11 @@ var plus = document.querySelector('.plus')
 var inP = parseInt(document.querySelector("#text").value)  
 var cal;
 cal = 1 - inP
+
+
+if(!inP>0.9 ){
+  cal = 1 + 0
+}
  
 outP.innerHTML = `${cal}`
 }
